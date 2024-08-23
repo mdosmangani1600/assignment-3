@@ -10,9 +10,11 @@
     tailwind.config = {
       theme: {
         extend: {
-          colors: {
-            clifford: '#da373d',
-          }
+          backgroundImage: {
+        'hero-pattern': "url('/assets/bg.jpg')",
+        
+      }
+
         }
       }
     }
@@ -39,7 +41,7 @@
                   <div class="gap-3 hidden md:flex">
                     <i class="fa-solid fa-magnifying-glass bg-slate-100 p-3 rounded-full"></i>
                     <i class="fa-solid fa-cart-shopping bg-slate-100 p-3 rounded-full"></i>
-                  <a class="btn bg-[#ABEF5F] text-white rounded-3xl font-bold px-7  text-xl">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 bg-black rounded-full p-1"></i></a>
+                  <a class="btn bg-[#ABEF5F] text-black rounded-3xl font-bold px-7  text-xl">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 text-white bg-black rounded-full p-1"></i></a>
                   </div>
                   <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -164,7 +166,7 @@
             </div>
             <!-- card2 -->
             <div class="lg:col-span-2 border rounded-xl p-4 md:flex">
-              <img class="lg:w-full" src="assets/img2.png" alt="">
+              <img class="w-full" src="assets/img2.png" alt="">
             </div>
             <div class="lg:hidden border rounded-xl p-4">
               <img class="w-full" src="assets/img5.png" alt="">
@@ -194,6 +196,25 @@
            </div>
           </div>
          </section>
+         <!-- Connect section-->
+      <section class="bg-no-repeat bg-cover" style="background-image:url(/assets/bg.jpg) ;">
+         <div class="mt-14 md:container mx-auto py-14">
+          <!-- text section -->
+          <div class="text-center mx-auto space-y-7 ">
+            <a class="font-bold bg-[#d8f7ae]  rounded-2xl p-2 gap-2"><i class="fa-solid fa-arrow-right"></i>  Let’s Connect</a>
+            <h3 class="font-bold text-4xl">Let’s Discuss Next Project</h3>
+            <p>The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:m-20 gap-6 mx-auto">
+           <input type="text" class="p-7 rounded-full" placeholder="First Name*">
+           <input type="text" class="p-7 rounded-full" placeholder="Last Name*">
+           <input type="text" class="p-7 rounded-full" placeholder="Phone Number*">
+           <input type="text" class="p-7 rounded-full" placeholder="Email Name*">
+           <textarea class="textarea md:col-span-2  h-[240px] p-7 rounded-2xl" placeholder="Write your message here"></textarea>
+           <a class="btn md:col-span-2 bg-[#ABEF5F] text-black rounded-3xl font-bold px-7 text-xl">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white rounded-full p-1"></i></a>
+          </div>
+          
+      </section>
     </main>
 
 </body>
