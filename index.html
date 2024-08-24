@@ -19,9 +19,9 @@
       }
     }
   </script>
-    <title>Do</title>
+    <title>Rinterio Design</title>
 </head>
-<body class="">
+<body class="overflow-x-hidden">
     <header class="md:container mx-auto space-y-20 px-5">
         <nav class="">
             <div class="navbar bg-base-100">
@@ -72,7 +72,7 @@
         </nav>
         <div class="max-w-screen-xl mx-auto px-16 lg:px-28 space-y-6 text-center flex flex-col">
           <img class="w-[260px] md:w-[424px] lg:w-[571px] mx-auto " src="assets/banner.png" alt="">
-            <h1 class="text-[#212121] max-w-3xl mx-auto font-extrabold text-5xl">A barn house of this design has a striking appearance</h1>
+            <h1 class="text-[#212121] text-3xl font-extrabold lg:text-5xl">A barn house of this design has a striking appearance</h1>
             <p class="max-w-3xl mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
             <button>
                 <a class="btn bg-[#cae7a9]  text-[#212121] rounded-3xl font-bold px-7  text-xl">View Details<i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] rounded-full p-1"></i></a>
@@ -82,7 +82,8 @@
     <main class="">
       <section class="bg-gray-100">
         <!-- about section -->
-       <section class=" mt-14 md:container lg:mx-auto px-5">
+       <section class=" mt-10 lg:pt-10 relative md:container lg:mx-auto px-5">
+        <div class="hidden lg:flex lg:absolute -left-10  top-10"><img src="assets/Vector.png" alt=""></div>
         <div class="lg:flex justify-between gap-20 py-14">
           <div class="space-y-10">
               <div class=" space-y-3 mt-4">
@@ -196,6 +197,87 @@
            </div>
           </div>
          </section>
+        <!-- Customers review = new section -->
+         <section class="bg-gray-100 mt-6 container mx-auto pb-14 px-5  pt-14">
+          <div class="text-center mb-7">
+            <a class="font-bold bg-[#d7e6c5]  rounded-2xl p-2 gap-2"><i class="fa-solid fa-arrow-right"></i>  Customers Review</a>
+          </div>
+          <div class="md:flex space-y-5 md:justify-between font-bold mb-10 lg:px-16">
+            <h2 class="text-3xl">What our customers are <br>
+              saying us?</h2>
+              <div class="flex justify-between text-start gap-5">
+                <div>
+                  <h5>30k+</h5>
+                  <p>Happy Client</p>
+                </div>
+                <div>
+                  <h3>4.70</h3>
+                  <h4>Overall rating</h4>
+                  <div class="rating rating-half">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"/>
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"/>
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"/>
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked"/>
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"/>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+            <div class="border p-6 rounded-xl shadow-xl">
+              <div class="flex justify-between">
+                <img class="w-20 h-20 rounded-full" src="assets/OIP (2).jpeg" alt="">
+                <div>
+                  <h3 class="text-xl">Devon Lane</h3>
+                  <h4>Marketing</h4>
+                </div>
+                <img class="w-11 h-11 " src="assets/R.png" alt="">
+              </div>
+              <div>
+                <p>Searches for multiplexes, property comparisons,
+                  and the loan estimator. Works great. Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit,
+                  sed do eiusmod tempor incididunt ut labore et
+                  dores.</p>
+              </div>
+            </div>
+            <div class="border p-6 rounded-xl shadow-xl">
+              <div class="flex justify-between">
+                <img class="w-20 h-20 rounded-full" src="assets/OIP.jpeg" alt="">
+                <div>
+                  <h3 class="text-xl">Mr. Ali haider</h3>
+                  <h4>Developer</h4>
+                </div>
+                <img class="w-11 h-11 " src="assets/R.png" alt="">
+              </div>
+              <div>
+                <p>Searches for multiplexes, property comparisons,
+                  and the loan estimator. Works great. Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit,
+                  sed do eiusmod tempor incididunt ut labore et
+                  dores.</p>
+              </div>
+            </div>
+            <div class="border p-6 rounded-xl shadow-xl">
+              <div class="flex justify-between">
+                <img class="w-20 h-20 rounded-full" src="assets/OIP (1).jpeg" alt="">
+                <div>
+                  <h3 class="text-xl">Cameron Williamson</h3>
+                  <h4>Designer</h4>
+                </div>
+                <img class="w-11 h-11 " src="assets/R.png" alt="">
+              </div>
+              <div>
+                <p>Searches for multiplexes, property comparisons,
+                  and the loan estimator. Works great. Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit,
+                  sed do eiusmod tempor incididunt ut labore et
+                  dores.</p>
+              </div>
+            </div>
+          </div>
+         </section>
+
          <!-- Connect section-->
       <section class="bg-no-repeat px-5 bg-cover" style="background-image:url(/assets/bg.jpg) ;">
          <div class="mt-14 md:container mx-auto py-14">
@@ -216,6 +298,7 @@
           
       </section>
     </main>
+    <!-- footer section -->
   <footer class="bg-[#1C1C1C] px-5">
     <div class="pt-10 container mx-auto text-center items-center pb-14 space-y-5">
           <div class="container md:w-2/5 mx-auto text-center space-y-5">
@@ -243,3 +326,4 @@
   </footer>
 </body>
 </html>
+
